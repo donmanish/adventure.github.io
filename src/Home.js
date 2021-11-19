@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "./image/adv.jpg";
+import advn from "./image/adventure.png";
 
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
             <section className="bg-black w-full">
                 <h1 className="text-white text-center text-5xl p-12 font-bold ">Lets life to be btter</h1>
                 <div className=" h-screen flex w-full p-12"> 
-                  <img src={Image} alt="" className=" w-2/4 h-full b-10  "/>
+                  <img src={advn} alt="" className=" w-2/4 h-full b-10  "/>
                   <div className="w-6/12 h-auto ">
                       <h1 className="text-white mx-52  text-6xl">Go Towards where you Desire.</h1>
                       <p className="text-white mx-52 my-20">Go towars the montain, oceans and desert keep<br/> 
